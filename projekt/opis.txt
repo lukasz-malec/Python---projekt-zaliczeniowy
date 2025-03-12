@@ -1,0 +1,22 @@
+Gra w Pac-Mana
+Gracz ma jedno życie i jego celem jest zebranie wszystkich punktów na planszy.
+W trakcie rozgrywki dostępne są efekty dźwiękowe przy zdobywaniu punktów i zderzaniu z duszkami.
+
+Gra działa w rozdzielczości 600x650 pikseli, co zapewnia kompatybilność z ekranami laptopów i komputerów.
+
+Struktura folderów projektu:
+    - images: zawiera grafiki Pac-Mana i duszków.
+    - sounds: zawiera efekty dźwiękowe.
+    - main.py: główny plik uruchomieniowy gry.
+    - constants.py: zawiera stałe wartości wykorzystywane w grze.
+    - drawings.py: funkcje rysujące planszę oraz tekst.
+    - player.py: definicja zachowania gracza (Pac-Mana).
+    - ghost.py: definicja zachowania duszków.
+
+Gracz porusza się z wykorzystaniem klawiszy "strzałek", góra - dół, prawo - lewo.
+Raz wciśniety klawisz powoduje ciągłe ruch Pac-Mana w danym kierunku.
+Po zwycięstwie lub porażce, ekran zabarwia się na czarny kolor z odpowiednim komunikatem, następnie po 2 sekundach program ( okienko gry się zamyka)
+
+
+WAZNE!
+Uruchamiamy program poprzez pobranie repozytorium,a następnie przejście do folderu projekt i włacząjać program main.py

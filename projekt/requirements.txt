@@ -1,0 +1,5 @@
+# To jest lista wszystkich potrzebnych bibliotek do uruchomienia programu
+
+pygame
+math
+copy
